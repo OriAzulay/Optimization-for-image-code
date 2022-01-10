@@ -1,4 +1,4 @@
-
+// Ori Azulay, ID: 206336794
 // DEFINE CONSTS THAT USED AT 'applypixel' and used in the file
 #define KERNEL_SIZE 3
 #define MIN_INTENSITY 766
@@ -29,12 +29,12 @@ void myfunction(Image *image, char* srcImgpName, char* blurRsltImgName, char* sh
 	pixel* backupOrg = malloc(size);
 
 	// Register members can be more accessiables
-	register int i,j; //members for conditions loop
-	register int m_kernel = m-1; // right corner border
-	register pixel p;
-	register pixel current_pixel;
-	register int red_sum, green_sum, blue_sum;
-	register int in_place; // integer for current index
+	 int i,j; //members for conditions loop
+	 int m_kernel = m-1; // right corner border
+	 pixel p;
+	 pixel current_pixel;
+	 int red_sum, green_sum, blue_sum;
+	 int in_place; // integer for current index
 
 	if (flag == '1') {	
 	/**
