@@ -8,3 +8,4 @@ My optimization explanation principels were :
 we will merge all the function inside 'myfunction'.
 2. we can define some consts that we use intansitly like max,min, logic maximum/minimum methods.
 3. to avoid code motion like the calculation of size, we can calculate ones.
+4. instead of using functions to copy characters/objects, we can use memcpy to copy the address bytes.
